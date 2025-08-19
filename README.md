@@ -1,6 +1,7 @@
 git init
-git add .
-git commit -m "Initial commit - churn prediction app"
-git branch -M main
 git remote add origin https://github.com/Damicode2/churn-prediction-app.git
+git status
+git add .
+git commit -m "fix: added XGBoost import and updated requirements.txt"
+git branch -M main
 git push -u origin main
